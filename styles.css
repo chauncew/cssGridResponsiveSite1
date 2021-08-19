@@ -127,15 +127,15 @@ body {
 }
 
 @media(max-width: 800px) {
+    body {
+        padding: 0 5px;
+    }
    .landingPage h1 {
     font-size: 1.2rem;
     }
     .boxesHeading {
         font-size: 1.3rem;
     }
-}
-
-@media(max-width: 800px) {
     .nav ul li {
         display: none;
     }
@@ -145,8 +145,8 @@ body {
     .logo {
         display: block;
     }
-    .landingPage h1 {
-    font-size: 1.2rem;
-    }
- 
+}
+
+@media(max-width: 800px) {
+
 }
