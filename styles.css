@@ -179,6 +179,7 @@ body {
     height: 100vh;
 }
 
+
 @media(max-width: 800px) {
     body {
         padding: 0 5px;
@@ -202,3 +203,10 @@ body {
         width: 20%;
     }
 }
+
+@media(max-width: 600px) {
+    .cameraLine {
+        width: 35%;
+    }
+}
+
