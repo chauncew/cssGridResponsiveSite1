@@ -126,7 +126,7 @@ body {
     grid-row: 2/3; */
 }
 
-@media(max-width: 770px) {
+@media(max-width: 800px) {
    .landingPage h1 {
     font-size: 1.2rem;
     }
@@ -135,7 +135,7 @@ body {
     }
 }
 
-@media(max-width: 740px) {
+@media(max-width: 800px) {
     .nav ul li {
         display: none;
     }
@@ -144,6 +144,9 @@ body {
     }
     .logo {
         display: block;
+    }
+    .landingPage h1 {
+    font-size: 1.2rem;
     }
  
 }
