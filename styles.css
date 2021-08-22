@@ -256,6 +256,9 @@ body {
     .accessoriesLine {
         width: 20%;
     }
+    .topAccessories, .bottomAccessories {
+        flex-wrap: nowrap;
+    }
 }
 
 @media(max-width: 500px){
@@ -281,5 +284,7 @@ body {
     .accessoriesHeading {
         /* margin-top: 500px; */
     }
+    .topAccessories, .bottomAccessories {
+        flex-wrap: wrap;
 }
 
