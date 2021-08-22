@@ -230,6 +230,10 @@ body {
 @media(max-width: 800px) {
     body {
         padding: 0 5px;
+        overflow-x: hidden;
+    }
+    html {
+        overflow-x: hidden;
     }
    .landingPage h1 {
     font-size: 1.2rem;
@@ -264,6 +268,9 @@ body {
 @media(max-width: 500px){
     .accessoriesHeading {
         margin-top: 100px;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
 
